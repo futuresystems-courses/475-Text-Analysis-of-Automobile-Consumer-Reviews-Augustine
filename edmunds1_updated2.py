@@ -94,7 +94,7 @@ n_top_words = 6
 
 # Collect data from edmunds.com through API calls
         
-url ='https://api.edmunds.com/api/vehiclereviews/v2/honda/accord/2008?sortby=thumbsUp%3AASC&pagenum=1&pagesize=768&fmt=json&api_key=8ehfene9p39sufv8hpagyq73'
+url ='https://api.edmunds.com/api/vehiclereviews/v2/honda/accord/2008?sortby=thumbsUp%3AASC&pagenum=1&pagesize=768&fmt=json&api_key='
     
 
 data = requests.get(url).text
